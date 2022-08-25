@@ -1,0 +1,23 @@
+[
+    {
+        "code": "en-US",
+        "name": "English",
+        "nativeName": "English",
+        "file": "en-US.json",
+        "default": true
+    },
+    {
+        "code": "es-AR",
+        "name": "Spanish",
+        "nativeName": "Español",
+        "file": "es_ES.json",
+        "default": false
+    },
+    {
+        "code": "zh-CN",
+        "name": "Chinese",
+        "nativeName": "中文",
+        "file": "zh-CN.json",
+        "default": false
+    }
+]

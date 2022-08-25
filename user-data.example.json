@@ -1,0 +1,78 @@
+[
+  {
+    "_id": "",
+    "_ip": "",
+    "_token": "",
+    "_created": "",
+    "_datas": {
+      "_roles": {
+        "_isIntern": {
+          "type": 0,
+          "group": "user",
+          "_date": ""
+        },
+        "_isPremium": {
+          "isPremium": true,
+          "_code": "",
+          "_expires": "",
+          "_date": ""
+        },
+        "_isTester": {
+          "Pre-Alpha": false,
+          "Pre-Beta": false,
+          "Alpha": false,
+          "Beta": false,
+          "_date": ""
+        },
+        "_isBanned": {
+          "isBanned": false,
+          "reason": "",
+          "_expires": "",
+          "_date": ""
+        }
+      },
+      "_account": {
+        "username": "",
+        "discriminator": "",
+        "avatarURL": "",
+        "guilds": [
+          ""
+        ],
+        "_credencals": {
+          "email": "",
+          "password": "",
+          "pin": "",
+          "_2FA": {
+            "email": false,
+            "pin": false
+          },
+          "_login": {
+            "accessToken": "",
+            "refreshToken": "",
+            "secretAccessToken": "",
+            "_expires": ""
+          }
+        }
+      },
+      "_commands": {
+        "hasExecuted": 0,
+        "_Intereactions": {
+          "_hasRecived": {
+            "_sfw": {},
+            "_nsfw": {}
+          },
+          "_hasSent": {
+            "_sfw": {},
+            "_nsfw": {}
+          }
+        }
+      },
+      "_virtual": {
+        "_currency": {
+          "inBank": 0,
+          "inPocket": 0
+        }
+      }
+    }
+  }
+]

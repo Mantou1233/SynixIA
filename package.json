@@ -1,0 +1,52 @@
+{
+  "name": "synixia",
+  "version": "1.4-beta",
+  "description": "A Discord Bot Named SynixIA",
+  "main": "src/index.js",
+  "scripts": {
+    "logs": "pm2 logs",
+    "stop": "pm2 stop",
+    "restart": "pm2 stop index",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Synix-Studios/SynixIA.git"
+  },
+  "keywords": [
+    "SynixIA",
+    "Synix"
+  ],
+  "author": {
+    "name": "TheJoaqun"
+  },
+  "contributors": [
+    "TheJoaqun"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Synix-Studios/SynixIA/issues"
+  },
+  "homepage": "https://github.com/Synix-Studios/SynixIA#readme",
+  "website": "none",
+  "dependencies": {
+    "canvacord": "^5.4.2",
+    "connect-mongo": "^4.6.0",
+    "crypto-js": "^4.1.1",
+    "discord.js": "^14.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "https": "^1.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.4.6",
+    "passport": "^0.6.0",
+    "passport-discord": "^0.1.4",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

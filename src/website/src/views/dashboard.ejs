@@ -1,0 +1,18 @@
+<%- include('partials/header') -%>
+
+  <main class="bg-dark">
+    <div class="container text-light">
+      <h1>Dashboard</h1>
+
+      <p>
+        <%- user.username %>, these are your server
+      </p>
+
+      <div class="row">
+        <% guilds.forEach((guild)=> { %> <%- include('partials/guild', { guild }) -%>
+            <% }) %>
+      </div>
+    </div>
+  </main>
+
+  <%- include('partials/footer') -%>

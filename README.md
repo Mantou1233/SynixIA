@@ -1,2 +1,2 @@
 # SynixIA
-Modern And Futuristic Discord Bot
+Modern Advanced Futuristic Bot

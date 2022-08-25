@@ -1,0 +1,20 @@
+[15-08-22 ~ 16:9:19] - [event] ~ call.js  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[ Start Of Synix Log ]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[15-08-22 ~ 16:9:19] - [log] ~ events.js  Loaded ready.js
+[15-08-22 ~ 16:9:19] - [log] ~ events.js  Loaded interactionCreate.js
+[15-08-22 ~ 16:9:19] - [log] ~ events.js  Loaded messageCreate.js
+[15-08-22 ~ 16:9:19] - [success] ~ events.js  Successfully Loaded 3 Files && 2 Folders.
+[15-08-22 ~ 16:9:19] - [log] ~ commands.js  Loaded echo.js.
+[15-08-22 ~ 16:9:19] - [log] ~ commands.js  Loaded shutdown.js.
+[15-08-22 ~ 16:9:19] - [log] ~ commands.js  Loaded ping.js.
+[15-08-22 ~ 16:9:19] - [log] ~ commands.js  Loaded avatar.js.
+[15-08-22 ~ 16:9:19] - [log] ~ commands.js  Loaded userinfo.js.
+[15-08-22 ~ 16:9:19] - [success] ~ commands.js  Successfully Loaded 5 Files && 3 Folders.
+[15-08-22 ~ 16:9:19] - [success] ~ Slash.js  Successfully Loaded 0 Files && 3 Folders.
+[15-08-22 ~ 16:9:19] - [success] ~ app.js  Listening On Port: 80
+[15-08-22 ~ 16:9:19] - [success] ~ login.js  SynixIA Has Logged Into Discord, With [ID]: 933445858530299924
+[15-08-22 ~ 16:9:19] - [success] ~ mongoose.js  Conected To Database!
+[15-08-22 ~ 16:9:19] - [success] ~ ready.js  Client Status Has Been Set, With An Interval Of 5s
+[15-08-22 ~ 16:9:19] - [error] ~ mongoose.js  Database has been disconected. Falid To Reconect.
+[15-08-22 ~ 16:9:19] - [success] ~ mongoose.js  Conected To Database!
+[15-08-22 ~ 16:9:19] - [error] ~ mongoose.js  Database has been disconected. Falid To Reconect.
+[15-08-22 ~ 16:9:19] - [success] ~ mongoose.js  Conected To Database!
