@@ -84,6 +84,9 @@ exports.log = async (msg, type = 'log') => {
     function transcript() { // make transcript
         if (logTranscript !== true) return;
         content = `[${dateNow}] - [${type}] ~ ${_file().filename}  ${msg}`
+        if (!fs.existsSync(logPath)) {
+            fs.mkdirSync(logPath);
+        }
         fs.writeFileSync(logPath + fileName + fileExtension, `${content}\n`, { flag: "a+" },
             (err) => {
                 if (err) throw new Error("[Logger] Falied To Transcript.")
